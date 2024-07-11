@@ -5,6 +5,7 @@ on: [push, pull_request]
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
+    
 
     steps:
     - name: Checkout code
